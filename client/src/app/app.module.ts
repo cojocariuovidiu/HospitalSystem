@@ -4,14 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { NopagefoundComponent } from './components/shared/nopagefound/nopagefound.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { ProgressComponent } from './components/progress/progress.component';
-import { Graficas1Component } from './components/graficas1/graficas1.component';
+import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
+import { ProgressComponent } from './components/pages/progress/progress.component';
+import { Graphics1Component } from './components/pages/graphics1/graphics1.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './components/shared/breadcrumbs/breadcrumbs.component';
 
 import { routing } from './app.routing';
+import { PagesComponent } from './components/pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +21,11 @@ import { routing } from './app.routing';
     NopagefoundComponent,
     DashboardComponent,
     ProgressComponent,
-    Graficas1Component,
+    Graphics1Component,
     HeaderComponent,
     SidebarComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    PagesComponent
   ],
   imports: [
     BrowserModule,
