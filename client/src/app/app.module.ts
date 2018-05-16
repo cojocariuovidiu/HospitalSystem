@@ -13,6 +13,7 @@ import { BreadcrumbsComponent } from './components/shared/breadcrumbs/breadcrumb
 
 import { routing } from './app.routing';
 import { PagesComponent } from './components/pages/pages.component';
+import { RegisterComponent } from './components/login/register.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PagesComponent } from './components/pages/pages.component';
     HeaderComponent,
     SidebarComponent,
     BreadcrumbsComponent,
-    PagesComponent
+    PagesComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
